@@ -3,11 +3,7 @@ import { Platform, StyleSheet, StatusBar, View } from "react-native";
 import SignUp from "./app/screens/SignUp";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <SignUp />
-    </View>
-  );
+  return <View style={styles.container}></View>;
 }
 
 const styles = StyleSheet.create({
